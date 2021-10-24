@@ -1,7 +1,7 @@
 <ul id="menu">
     <li><span> </span></li>
     <li routerLink="/list"><span>Inicio</span></li>
-    <li routerLink="/us"><span>Láminas</span></li>
+    <li routerLink="/us"><span>Galería</span></li>
     <li id="acceso" *ngIf="miToken == 0" class="acceso" routerLink="/login"><span>Iniciar sesión</span></li>
 
     <li id="acceso" *ngIf="miToken != 0" class="acceso" (click)="logout()">
@@ -9,5 +9,4 @@
             <strong>Usuario:</strong> {{ userName }}
             <img src="./../../assets/images/icons/logout.png" width="25" height="25"></span>
     </li>
-
 </ul>

@@ -10,7 +10,7 @@ import { LoadScriptsService } from 'src/app/shared/services/load-scripts.service
  styleUrls: ['./list.component.css']
 })
 export class ListComponent implements OnInit {
- // Atibutos
+ // Atributos
 public entryList: any;
  constructor(private slider: LoadScriptsService) {
     slider.Load(["slider"]);

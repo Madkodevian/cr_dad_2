@@ -11,6 +11,7 @@ import { AboutUsComponent } from './views/about-us/about-us.component';
 import { FormsModule } from '@angular/forms';
 import { LoginComponent } from './views/login/login.component';
 import { LoadScriptsService } from './shared/services/load-scripts.service';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { LoadScriptsService } from './shared/services/load-scripts.service';
     EntreeComponent,
     PageNotFoundComponent,
     AboutUsComponent,
-    LoginComponent
+    LoginComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
