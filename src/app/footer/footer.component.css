@@ -20,11 +20,7 @@
    }
 
    .txt-position{
+       bottom: 7px;
        position: relative;
-       left: -14px;
+       left: 30.5px;
    }
-
-   /* #acceso-footer {
-    position: absolute;
-    right: 10px;
-   } */

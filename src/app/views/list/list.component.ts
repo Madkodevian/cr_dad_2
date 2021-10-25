@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { EntreeService } from 'src/app/shared/services/entree.service';
 import { LoadScriptsService } from 'src/app/shared/services/load-scripts.service';
+// import img from '../src/assets/json/database.json';
 
 
 
@@ -17,7 +18,9 @@ public entryList: any;
  }
 
  
- ngOnInit(): void { // Llamar a la petición, para recuperar entradas
+ ngOnInit(): void { 
+
+   // Llamar a la petición, para recuperar entradas
  //this.retrieveEntry();
  }
 
@@ -36,6 +39,9 @@ public entryList: any;
  }
  );
  }*/
+
+//  Database: any = img;
+
  public showTitle(title: string): void {
  alert(`Entrada seleccionada: ${ title }.`);
  }
