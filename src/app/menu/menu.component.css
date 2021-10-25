@@ -6,9 +6,11 @@
     width: 100%;
     height: 60px;
    }
+
    #menu li {
     display: inline;
    }
+
    #menu li span {
     margin-top: 0.8em;
     font-family: Arial;
@@ -16,7 +18,18 @@
     padding: 10px;
     text-align: center;
    }
+
    #acceso {
     position: absolute;
     right: 10px;
    }
+
+   /* LOGO */
+
+   .img-logo{
+    width: 2em;
+    bottom: 0.5em;
+    margin-bottom: 10em;
+    position: relative;
+   }
+

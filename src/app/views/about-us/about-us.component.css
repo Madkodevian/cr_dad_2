@@ -26,6 +26,7 @@ box-sizing:border-box
 }
 /* Position the "next button" to the right */
 .next {
+ padding-top: -20em;
  right: 0;
  border-radius: 3px 0 0 3px;
 }
@@ -33,8 +34,9 @@ box-sizing:border-box
 .prev:hover, .next:hover {
  background-color: rgba(0,0,0,0.8);
 }
+
 /* Caption text */
-.text {
+/* .text {
  color: #f2f2f2;
  font-size: 15px;
  padding: 8px 12px;
@@ -42,15 +44,19 @@ box-sizing:border-box
  bottom: 8px;
  width: 100%;
  text-align: center;
-}
+} */
+
 /* Number text (1/3 etc) */
-.numbertext {
- color: #f2f2f2;
- font-size: 12px;
- padding: 8px 12px;
+/* .numbertext {
+ color: #000000;
+ font-size: 14px;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ padding: 37.6em;
  position: absolute;
  top: 0;
-}
+ left: -13em;
+} */
+
 /* The dots/bullets/indicators */
 .dot {
  cursor: pointer;
@@ -82,5 +88,11 @@ box-sizing:border-box
 }
 
 .img-width{
+    width: 100%;
+}
+
+/* CONTAINER'S BACKGROUND */
+.bg-container{
+    background-color: rgb(244, 251, 255);
     width: 100%;
 }

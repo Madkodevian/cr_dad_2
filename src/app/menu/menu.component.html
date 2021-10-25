@@ -1,7 +1,5 @@
 <ul id="menu">
-    <li><span> </span></li>
-    <li routerLink="/list"><span>Inicio</span></li>
-    <li routerLink="/us"><span>Galería</span></li>
+    <li><span><img src="./../../assets/images/cr_favicon.png" class="img-logo"></span></li>
     <li id="acceso" *ngIf="miToken == 0" class="acceso" routerLink="/login"><span>Iniciar sesión</span></li>
 
     <li id="acceso" *ngIf="miToken != 0" class="acceso" (click)="logout()">
