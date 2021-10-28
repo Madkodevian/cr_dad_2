@@ -1,5 +1,7 @@
+
 [
     {
+        "resolveJsonModule": true,
         "id":1,
         "img1":"hidro7.jpg",
         "img2":"hidro8.jpg",

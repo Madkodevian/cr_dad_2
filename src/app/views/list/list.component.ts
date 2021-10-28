@@ -1,9 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, NgModule, OnInit } from '@angular/core';
 import { EntreeService } from 'src/app/shared/services/entree.service';
 import { LoadScriptsService } from 'src/app/shared/services/load-scripts.service';
-// import img from '../src/assets/json/database.json';
+// import img from 'src/app/assets/json/database.json';
 
-
+// @NgModule({
+//   declarations: [img]
+// })
 
 @Component({
  selector: 'app-list',
@@ -40,7 +42,7 @@ public entryList: any;
  );
  }*/
 
-//  Database: any = img;
+  // Database: any = img;
 
  public showTitle(title: string): void {
  alert(`Entrada seleccionada: ${ title }.`);
