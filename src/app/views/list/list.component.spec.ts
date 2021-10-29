@@ -23,3 +23,9 @@ describe('ListComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+
+// IMG SLIDER
+// $http.get('src/app/assets/json/database.json')
+//   .success(function(data, status, headers, config) {
+//     $scope.images = data.items;
+//   });

@@ -5,3 +5,14 @@
 .img-width{
     width: 100%;
 }
+
+/* SLIDER IMG */
+#image_slider .item{
+    padding: 30px 0px;
+     background: #a1def8;
+     display: block;
+     margin: 5px;
+     color: #FFF;
+     border-radius: 3px;
+     text-align: center;
+}
